@@ -6,17 +6,21 @@ html {
 }
 
 body {
-  // font-family: ;
+  font-family:Helvetica, Arial, sans-serif;
   // font-weight: ;
   // font-size: ;
   line-height: 1.3;
 }
 
 h1 {
-  font-size:10em;  
+  font-size:10em;
 }
 
 // LAYOUT
+
+.center-text {
+  text-align: center;
+}
 
 .container {
   width: 100% - 2 * $site-gutter;
